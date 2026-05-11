@@ -168,8 +168,8 @@ require_once WEB_ROOT . "_includes/companyDetails.php";
                                         <i class="fa-solid fa-arrow-up-right-from-square text-white"></i>
                                     </a>
                                 </div>
-                                <h4>Blog to Social</h4>
-                                <p class="project-description">Blog to Social</p>
+                                <h4>News to Social</h4>
+                                <p class="project-description">Converts News articles to Social Posts</p>
                             </div>
                         </div>
                     </div>
