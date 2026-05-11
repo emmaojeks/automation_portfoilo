@@ -1,0 +1,10 @@
+php_value display_errors On
+RewriteEngine On
+
+# Allow access to existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check if the .php file exists and rewrite
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
